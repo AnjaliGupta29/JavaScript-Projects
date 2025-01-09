@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .calendar-container {
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(145deg, #1e1e1e, #2b2b2b);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-title {
+    font-size: 2rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar-navigation button {
+    background: #ff6f61;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .calendar-navigation button:hover {
+    background: #ff947a;
+  }
+  
+  .calendar-navigation #currentMonth {
+    font-size: 1.5rem;
+    color: #80cbc4;
+  }
+  
+  .calendar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .days-of-week {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .days-of-week span {
+    flex: 1;
+    text-align: center;
+    color: #ff6f61;
+  }
+  
+  .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .dates div {
+    background: #1e1e1e;
+    color: #80cbc4;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3), inset -5px -5px 10px rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .dates div:hover {
+    transform: scale(1.1);
+    background: #ff6f61;
+    color: white;
+  }
+  
