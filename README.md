@@ -62,13 +62,5 @@ A sleek and interactive calendar application with a dark mode theme and stunning
 - HTML, CSS, JavaScript
 - GSAP for animations
 
-### Setup
-Simply open `index.html` in your browser to view the calendar.
 
-
-## Setup and Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/Counter-App.git
 
