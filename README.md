@@ -48,9 +48,19 @@ A dynamic and visually appealing counter application designed with a futuristic 
 
 ---
 
-## Setup and Usage
+# Fantastic Calendar
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/Counter-App.git
+A sleek and interactive calendar application with a dark mode theme and stunning animations powered by GSAP. This project features a user-friendly interface and unique color combinations to enhance the user experience.
+
+## Features
+- **Dark Mode**: Modern and soothing UI design.
+- **GSAP Animations**: Smooth animations for enhanced interactivity.
+- **Navigation**: Easily navigate between months.
+- **Responsive Design**: Works seamlessly on all screen sizes.
+
+## Technologies Used
+- HTML, CSS, JavaScript
+- GSAP for animations
+
+
 
