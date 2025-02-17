@@ -2,10 +2,9 @@
 Welcome to the JavaScript Projects repository! 
 
 # Counter App
+---
 
 A dynamic and visually appealing counter application designed with a futuristic UI and powered by GSAP animations.
-
----
 
 ## Features
 
@@ -49,6 +48,7 @@ A dynamic and visually appealing counter application designed with a futuristic 
 ---
 
 # Fantastic Calendar
+---
 
 A sleek and interactive calendar application with a dark mode theme and stunning animations powered by GSAP. This project features a user-friendly interface and unique color combinations to enhance the user experience.
 
@@ -61,6 +61,39 @@ A sleek and interactive calendar application with a dark mode theme and stunning
 ## Technologies Used
 - HTML, CSS, JavaScript
 - GSAP for animations
+
+
+# To-Do List App 📝  
+---
+
+A simple To-Do List application built with **HTML, CSS, and JavaScript**. This app allows users to add, delete, and mark tasks as completed while saving the data in **LocalStorage** to persist even after refreshing the page.  
+
+## Features 🚀  
+✅ Add new tasks  
+✅ Remove tasks  
+✅ Mark tasks as completed  
+✅ Save tasks in LocalStorage  
+✅ Simple and clean UI  
+
+## How to Use? 🔥  
+1. Open `index.html` in a browser.  
+2. Enter a task and click the "Add" button.  
+3. Click on a task to **mark it as completed** (strikethrough effect).  
+4. Click the **"X" button** to delete a task.  
+5. The list is **saved in LocalStorage**, so it remains even after a refresh.  
+
+## Technologies Used 🛠  
+- **HTML** for structure  
+- **CSS** for styling  
+- **JavaScript** for interactivity  
+
+## Future Improvements 💡  
+- Add an **edit** button for tasks  
+- Implement category filters (Work, Personal, etc.)  
+- Improve animations for adding/removing tasks  
+
+Enjoy coding! 🎯  
+
 
 
 
